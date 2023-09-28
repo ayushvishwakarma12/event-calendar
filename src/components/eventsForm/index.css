@@ -1,0 +1,51 @@
+.form-container {
+  min-width: 200px;
+  max-width: 300px;
+  height: 100vh;
+  background-color: #e5e4e2;
+  padding: 20px 10px 0px 10px;
+}
+
+.form-heading {
+  font-family: "Roboto";
+  font-size: 20px;
+  padding: 5px;
+  font-weight: 700;
+  border-bottom: 1px solid #000000;
+}
+
+.input {
+  border: none;
+  line-height: 40px;
+  padding-left: 10px;
+  font-size: 18px;
+  outline: none;
+  width: 90%;
+  color: #6a7482;
+  cursor: pointer;
+}
+
+.error {
+  color: #ff4343;
+}
+
+.event-button {
+  margin-top: 20px;
+  width: 90%;
+  text-align: center;
+  scale: 0.9;
+}
+
+.event-button:hover {
+  margin-top: 20px;
+  width: 90%;
+  text-align: center;
+  transition: ease-in-out 1s;
+  background: linear-gradient(to left, #30c0e3, #3180e5);
+  scale: 1;
+}
+
+.label {
+  font-weight: 500;
+  margin-bottom: 2px;
+}
